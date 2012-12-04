@@ -1,5 +1,7 @@
 package view;
-import Observer;
+import javax.swing.JPanel;
+
+import tp3.Observer;
 
 public class ThumbnailViewer extends JPanel implements Observer {
 	

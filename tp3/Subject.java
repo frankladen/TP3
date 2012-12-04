@@ -1,3 +1,4 @@
+package tp3;
 public class Subject   {
 	
 	public Subject () {
@@ -12,7 +13,7 @@ public class Subject   {
 	
 	}
 	
-	public void notify () {
+	public void alert () {
 	
 	}
 }

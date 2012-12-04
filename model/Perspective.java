@@ -1,5 +1,7 @@
 package model;
-import Subject;
+import java.awt.Point;
+
+import tp3.Subject;
 
 public class Perspective extends Subject  {
 	
