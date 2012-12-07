@@ -1,23 +1,21 @@
-package view;
-import java.util.Observable;
-
+import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
-import tp3.Observer;
+public class ImageViewer extends JPanel
+{
+	public ImageViewer() 
+	{
+      
+    }
 
-public class ImageViewer extends JPanel implements java.util.Observer {
-	
-	public ImageViewer () {
-	
-	}
-	
-	public void update () {
-	
-	}
-
-	@Override
-	public void update(Observable arg0, Object arg1) {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    public void paintComponent(Graphics g) 
+    {
+        super.paintComponent(g);
+        g.drawRect(0,0, 330, 30);
+        g.drawRect(0, 35, 330, 330);
+        //g.drawImage(image, 0, 0, null); // see javadoc for more info on the parameters            
+    }
 }
